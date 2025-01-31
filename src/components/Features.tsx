@@ -25,13 +25,13 @@ const features = [
 
 export const Features = () => {
   return (
-    <div className="py-24 sm:py-32">
+    <div className="py-24 sm:py-32 bg-shabz-dark">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Everything You Need to Succeed
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-400">
             Empower your creative journey with tools designed for the future of creator-fan relationships.
           </p>
         </div>
@@ -42,10 +42,10 @@ export const Features = () => {
                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-shabz-purple/10">
                   <feature.icon className="h-8 w-8 text-shabz-purple" aria-hidden="true" />
                 </div>
-                <dt className="text-xl font-semibold leading-7 text-gray-900">
+                <dt className="text-xl font-semibold leading-7 text-white">
                   {feature.name}
                 </dt>
-                <dd className="mt-4 flex flex-auto flex-col leading-7 text-gray-600">
+                <dd className="mt-4 flex flex-auto flex-col leading-7 text-gray-400">
                   <p className="flex-auto">{feature.description}</p>
                 </dd>
               </div>

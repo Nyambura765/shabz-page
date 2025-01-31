@@ -20,8 +20,9 @@ export default {
     extend: {
       colors: {
         shabz: {
-          purple: "#4C1D95",
-          teal: "#0D9488",
+          purple: "#8B5CF6",
+          dark: "#1A1F2C",
+          gray: "#2D3748",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
