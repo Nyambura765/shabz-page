@@ -21,7 +21,7 @@ export const Hero = () => {
           <div className="flex items-center justify-center gap-x-6 mb-24">
             <Button
               size="lg"
-              className="bg-shabz-purple hover:bg-purple-600 text-white text-lg px-8 py-6"
+              className="bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] hover:from-[#5558e8] hover:to-[#7c4deb] text-white text-lg px-8 py-6 shadow-lg shadow-purple-500/30"
             >
               Get Started →
             </Button>
