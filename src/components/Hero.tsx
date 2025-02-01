@@ -28,7 +28,7 @@ export const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-shabz-purple text-white hover:bg-shabz-purple/10"
+              className="border-shabz-purple text-shabz-purple hover:bg-shabz-purple/10 hover:text-shabz-purple"
             >
               Watch Demo <Play className="ml-2 h-4 w-4" />
             </Button>
