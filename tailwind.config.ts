@@ -21,7 +21,7 @@ export default {
       colors: {
         shabz: {
           purple: "#8B5CF6",
-          dark: "#1A1F2C",
+          dark: "#0A0B0F",
           gray: "#2D3748",
         },
         border: "hsl(var(--border))",
