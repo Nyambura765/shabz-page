@@ -23,7 +23,7 @@ export const Navbar = () => {
               </a>
             </div>
           </div>
-          <Button className="bg-shabz-purple hover:bg-purple-600 text-white">
+          <Button className="bg-gradient-to-r from-[#6366f1] to-[#8b5cf6] hover:from-[#5558e8] hover:to-[#7c4deb] text-white shadow-lg shadow-purple-500/30">
             Connect Wallet
           </Button>
         </div>
