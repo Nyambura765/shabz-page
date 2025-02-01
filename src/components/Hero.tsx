@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-shabz-dark via-[#151823] to-[#0F111A] pt-16">
+    <div className="relative min-h-screen bg-gradient-to-b from-shabz-dark via-[#1d2137] to-[#0F111A] pt-16">
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
       
       <div className="relative container mx-auto px-4 pt-32 sm:pt-40 pb-24">
